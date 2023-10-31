@@ -1,0 +1,40 @@
+.background{
+    background-color: #000324;
+}
+
+.bruh{
+    display: grid;
+    place-items: center;
+}
+
+.headerImg{
+    height: 500px;
+}
+
+.boxThing{
+    padding: 20px;
+}
+
+.otherBoxThing{
+    padding: 50px;
+    display: flex;
+}
+
+.awardImg{
+    padding-left: 30px;
+}
+
+.cardsBox{
+    background-image: url("../assets/bg.jpg");
+}
+
+.cardVisualEdit{
+    border-radius: 0px;
+}
+
+.roomsHeader{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
