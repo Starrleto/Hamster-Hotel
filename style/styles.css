@@ -7,8 +7,33 @@
     place-items: center;
 }
 
+.bottom{
+    display: flex;
+    align-items: flex-end;
+}
+
+.logoImg{
+    padding: 10px;
+}
+
+.logoImg2{
+    padding: 20px;
+}
+
 .headerImg{
-    height: 500px;
+    border-radius: 0px;
+}
+
+.headerBox{
+    width: 900px;
+    text-align: center;
+    background-color: #000324cc;
+    padding: 100px;
+}
+
+.headerBigText{
+    font-size: 60px;
+    font-weight: lighter;
 }
 
 .boxThing{
@@ -28,8 +53,14 @@
     background-image: url("../assets/bg.jpg");
 }
 
+.cardsList{
+    display: flex;
+    justify-content: space-around;
+}
+
 .cardVisualEdit{
     border-radius: 0px;
+    display: flex;
 }
 
 .roomsHeader{
@@ -40,12 +71,68 @@
     font-weight: 300;
 }
 
+.navbarText{
+    color:white;
+    font-family: Dosis;
+}
+
 .fontDosis{
     font-family: Dosis;
 }
 
 .fontSans{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lightWeight{
+    font-weight: 300;
+}
+
+.pricing{
+    color:#1F51A8;
+    font-family: Dosis;
+    font-weight: 500;
+}
+
+.aspect{
+    object-fit:cover;
+}
+
+.cardList{
+    font-family: Dosis;
+    padding-bottom: 20px;
+}
+
+.cardSizeText{
+    font-family: Dosis;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cardTitle{
+    font-family: Dosis;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.cardButton{
+    border-radius: 0px;
+    background-color: #004CC7;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+}
+
+.footer{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #000324;
+    text-align: center;
+    font-family: Dosis;
+    color: #E5FEFF;
 }
 
 @font-face{
