@@ -50,6 +50,7 @@
 }
 
 .cardsBox{
+    padding: 50px;
     background-image: url("../assets/bg.jpg");
 }
 
@@ -95,7 +96,9 @@
 }
 
 .aspect{
-    object-fit:cover;
+    width: 400px;
+    height: 400px;
+    object-fit:none;
 }
 
 .cardList{
@@ -133,6 +136,16 @@
     text-align: center;
     font-family: Dosis;
     color: #E5FEFF;
+}
+
+.packageImg{
+    width: 600px;
+    object-fit: none;
+}
+.aGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
 @font-face{
