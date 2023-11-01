@@ -36,36 +36,30 @@
     font-weight: lighter;
 }
 
-.boxThing{
+.paradiseBox{
+    margin: 30px;
     padding: 20px;
 }
 
-.otherBoxThing{
-    padding: 50px;
-    display: flex;
-}
-
-.awardImg{
-    padding-left: 30px;
-}
-
 .cardsBox{
-    padding: 50px;
-    background-image: url("../assets/bg.jpg");
+    width: 100%;
+    height: 800px;
+    background-image: url("../assets/bg2.jpg");
 }
 
 .cardsList{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .cardVisualEdit{
     border-radius: 0px;
     display: flex;
+    margin: 10px;
 }
 
 .roomsHeader{
-    padding: 20px;
+    padding: 30px;
     color: white;
     text-align: center;
     font-family: Dosis;
@@ -146,6 +140,62 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+}
+
+.amenities{
+    margin-top: 30px;
+    background-image: url(../assets/bg.jpg);
+    padding: 50px;
+}
+
+.swearWord{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whyAreYouLikeThis{
+    width: 95px;
+}
+
+.subText{
+    font-family: Dosis;
+    color:white;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+.imgText{
+    font-family: Dosis;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.TopText{
+    font-family: Dosis;
+    font-weight: lighter;
+    color:white;
+    text-align: center;
+}
+
+.reserve{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/*    background-color: #000324; */
+.inputSec{
+    display: flex;
+    flex-flow: column;
+    margin: 20px;
+}
+
+.inputRow{
+    display: flex;
+    flex-flow: row;
 }
 
 @font-face{
