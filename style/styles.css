@@ -20,10 +20,6 @@
     padding: 20px;
 }
 
-.headerImg{
-    border-radius: 0px;
-}
-
 .headerBox{
     width: 900px;
     text-align: center;
@@ -132,16 +128,6 @@
     color: #E5FEFF;
 }
 
-.packageImg{
-    width: 600px;
-    object-fit: none;
-}
-.aGrid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-}
-
 .amenities{
     margin-top: 30px;
     background-image: url(../assets/bg.jpg);
@@ -151,10 +137,6 @@
 .swearWord{
     display: flex;
     justify-content: space-evenly;
-}
-
-.whyAreYouLikeThis{
-    width: 95px;
 }
 
 .subText{
